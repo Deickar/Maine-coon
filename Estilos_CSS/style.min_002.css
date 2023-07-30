@@ -19,6 +19,9 @@ Woo: 8292607:770b84ab6c59c30cbf0f5dc782a4fa41
     --miniature-colors-red: #d62a29;
     --miniature-colors-yellow: #ffa500;
     --miniature-colors-blue: #70a8e4;
+    /*variables nuevas*/
+    --miniature-colors-sun:#F6B64A;
+    /*--------------------------------*/
     --miniature-font-weight-normal: 400;
     --miniature-font-weight-semi-bold: 500;
     --miniature-font-weight-bold: 700;
@@ -1337,7 +1340,7 @@ button.category-search-btn {
 }
 
 .head-search-form-wrap button.category-search-btn {
-    background-color: var(--miniature-colors-dark-grey);
+    background-color: var(--miniature-colors-sun);
     color: var(--miniature-colors-white)
 }
 
@@ -4113,7 +4116,7 @@ p .alignnone {
 }
 
 :root .has-theme-primary-background-color {
-    background-color: #ee233f
+    background-color: #E9546B
 }
 
 :root .has-theme-dark-gray-color {
@@ -4834,7 +4837,7 @@ textarea {
 button[type=submit],
 input[type=reset],
 input[type=submit] {
-    background-color: var(--miniature-buttons-background-color)
+    background-color: var(--miniature-buttons-background-color-maine-coon-Eggplant)
 }
 
 .ci-item-filter.filter-active,
@@ -4876,7 +4879,7 @@ input[type=submit] {
 button[type=submit],
 input[type=reset],
 input[type=submit] {
-    border-color: var(--miniature-buttons-border-color)
+    border-color: var(--miniature-buttons-border-color-maince-coon-Wenge)
 }
 
 .wp-block-button.is-style-outline .wp-block-button__link:not([class*=has-]) {
