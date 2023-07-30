@@ -1,0 +1,53 @@
+@keyframes miniature-rotate-animation {
+    from {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(359deg)
+    }
+}
+
+.miniature-wc-login-popup.mfp-bg {
+    background-color: var(--miniature-body-background-color)
+}
+
+.miniature-wc-login-popup .mfp-content {
+    max-width: 90vw;
+    background-color: var(--miniature-body-background-color);
+    padding: 30px;
+    border: 2px solid var(--miniature-border-color);
+    border-radius: var(--miniature-border-radius-base)
+}
+
+.miniature-wc-login-popup .mfp-content .miniature-wc-login-notices {
+    margin-bottom: 25px
+}
+
+.miniature-wc-login-popup .mfp-content .miniature-wc-login-notices .msg {
+    padding: 10px;
+    border-radius: var(--miniature-border-radius-base);
+    border: 2px solid var(--miniature-border-color);
+    font-size: 14px
+}
+
+.miniature-wc-login-popup .mfp-content .miniature-wc-login-notices .failure {
+    color: var(--miniature-colors-red);
+    border-color: var(--miniature-colors-red)
+}
+
+.miniature-wc-login-popup .mfp-content .woocommerce-form-login {
+    padding: 0;
+    margin: 0;
+    border: none
+}
+
+.miniature-wc-login-popup .mfp-content .woocommerce-form-login .error {
+    border-color: var(--miniature-colors-red)
+}
+
+@media (min-width:768px) {
+    .miniature-wc-login-popup .mfp-content {
+        max-width: 500px
+    }
+}
