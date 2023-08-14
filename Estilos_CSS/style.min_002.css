@@ -1029,7 +1029,9 @@ input[type=date] {
 }
 
 .layout-reverse {
-    flex-direction: row-reverse
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .justify-content-center {
