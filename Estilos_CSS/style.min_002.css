@@ -1009,7 +1009,8 @@ input[type=date] {
     max-width: 100%;
     margin: 0 auto;
     position: relative;
-    overflow-x: hidden
+    overflow-x: hidden;
+    background: white;
 }
 
 .site-content-wrap {
@@ -1020,7 +1021,8 @@ input[type=date] {
 
 .main {
     flex: auto;
-    padding: 60px 0
+    padding: 60px 0;
+    background-color: white;
 }
 
 .miniature-no-main-padding-on .main {
